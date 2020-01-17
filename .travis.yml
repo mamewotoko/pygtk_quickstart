@@ -13,7 +13,7 @@ addons:
     update: true
     packages: python3
 before_install:
-  - sudo bash -x setup.sh
+  - bash -x setup.sh
 script:
   - bash -x ci/shoot.sh
 os:
