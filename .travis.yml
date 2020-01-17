@@ -2,19 +2,16 @@ dist: xenial
 sudo: required
 addons:
   apt:
-    sources:
-    - ppa:mc3man/trusty-media
+    update: true
     packages:
     - xvfb
     - x11-apps
     - imagemagick
     - ffmpeg
 install:
-  - bash setups.sh
-  - bash ci/shoot.sh
+  - sudo bash -x setups.sh
 script:
-  - ./main.py
-
+  - bash -x ci/shoot.sh
 os:
   - linux
   - osx
