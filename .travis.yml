@@ -2,7 +2,7 @@ dist: bionic
 sudo: required
 language: python
 python:
-  - "3.8"
+  - "3.6"
 addons:
   apt:
     update: true
@@ -11,7 +11,7 @@ addons:
     - x11-apps
     - imagemagick
     - ffmpeg
-install:
+before_install:
   - sudo bash -x setup.sh
 script:
   - bash -x ci/shoot.sh
