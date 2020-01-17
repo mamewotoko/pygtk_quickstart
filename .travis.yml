@@ -12,7 +12,7 @@ addons:
     - imagemagick
     - ffmpeg
 install:
-  - sudo bash -x setups.sh
+  - sudo bash -x setup.sh
 script:
   - bash -x ci/shoot.sh
 os:
