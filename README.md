@@ -1,4 +1,4 @@
-pygtk quickstart
+pygtk quickstart [![Build Status](https://travis-ci.org/mamewotoko/pygtk_quickstart.svg?branch=master)](https://travis-ci.org/mamewotoko/pygtk_quickstart)
 =================
 
 Intall libs
