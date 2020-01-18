@@ -8,3 +8,6 @@ chmod +x gdrive
 curl -fsSLO https://raw.githubusercontent.com/mamewotoko/xvfb-screenshooter/master/xvfb-screenshooter.sh
 chmod +x xvfb-screenshooter.sh
 ./xvfb-screenshooter.sh timeout 10s ./main.py
+
+# 
+sh ci/upload.sh
