@@ -1,4 +1,6 @@
-#! /bin/sh
+#! /bin/bash
+set -e
+
 if [ "$(uname)" = Darwin ]; then
     brew update
     brew install pygobject3 gtk+3
