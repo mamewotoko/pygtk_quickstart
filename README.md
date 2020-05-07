@@ -15,9 +15,9 @@ Run
 ./main.py
 ```
 
-Keywords
---------
-Mac, Ubuntu, gtk3, python3
+Reference
+----------
+* [The Python GTK+3 Tutorial](https://python-gtk-3-tutorial.readthedocs.io/en/latest/)
 
 -----
 Takashi Masuyama < mamewotoko@gmail.com >  
