@@ -17,6 +17,7 @@ Run
 
 Reference
 ----------
+* [Getting Started - PyGObject](https://pygobject.readthedocs.io/en/latest/getting_started.html#fedora-getting-started)
 * [The Python GTK+3 Tutorial](https://python-gtk-3-tutorial.readthedocs.io/en/latest/)
 
 -----
